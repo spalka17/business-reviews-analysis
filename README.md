@@ -237,15 +237,13 @@ A **Business Group** slicer allows these patterns to be explored separately for 
 ![Review Activity](screenshots/04_review_activity.png)
 
 
-## 5. Seasonality & Holidays
+## 5. Seasonality
 
 The final page focuses on monthly patterns and review activity around U.S. federal holidays.
 
 ### Monthly Review Activity
 
-The line chart shows the average monthly number of reviews across the calendar year.
-
-It helps identify periods of higher and lower activity and highlights potential seasonal patterns.
+The line chart shows the average monthly number of reviews across the calendar year and helps identify periods of higher and lower review activity.
 
 ### Monthly Seasonality Summary
 
@@ -259,15 +257,15 @@ This complements the trend chart and makes month-to-month comparisons easier.
 
 ### Holiday Week vs Regular Days
 
-Review activity around U.S. federal holidays is compared with the average activity observed during regular days.
+Review activity during the **Holiday Week** is compared with the average activity observed on regular days.
 
-For this analysis, the **Holiday Week** period includes the holiday itself together with the seven preceding days.
+For this analysis, the Holiday Week includes the holiday itself together with the seven preceding days.
 
-This makes it possible to identify whether review activity around individual holidays is higher or lower than the typical daily level.
+This makes it possible to identify whether review activity around individual U.S. federal holidays is higher or lower than the typical daily level.
 
 A **Business Group** slicer allows seasonal patterns to be analysed separately for different types of businesses.
 
-![Seasonality & Holidays](screenshots/05_seasonality_holidays.png)
+![Seasonality](screenshots/05_seasonality.png)
 
 
 ## Key Findings
