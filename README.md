@@ -1,8 +1,10 @@
 # Business Reviews Analysis
 
+[View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMWZiY2M4NTEtYmZhZS00NGYwLTlhODktMGYyZDFhZWJjYWY3IiwidCI6Ijc1YzJlNGQ0LWQwNGMtNGNlOS1hMGVhLWM5NzViZGM0MTdlYiIsImMiOjF9&embedImagePlaceholder=true)
+
 ## Project Overview
 
-This project presents an analysis of more than **2 million user reviews** covering approximately **150,000 businesses located across multiple U.S. states**.
+This project presents an analysis of more than **2.3 million user reviews** covering approximately **150,000 businesses** across multiple cities and regions in North America.
 
 The dataset includes businesses from a wide range of industries, including restaurants, cafes, retail, beauty and personal care, healthcare, transportation, entertainment, automotive services, and many others.
 
@@ -15,7 +17,7 @@ The main goal of the project was to explore:
 - how review activity changes over time,
 - whether seasonal patterns can be observed,
 - how review activity changes around U.S. federal holidays,
-- how businesses and review activity differ across states and cities.
+- how businesses and review activity differ across locations.
 
 The final Power BI report consists of **five interactive pages**, moving from a general overview to more detailed analyses of ratings, geography, review activity, and seasonality.
 
@@ -33,14 +35,12 @@ The dataset included fields such as:
 
 - business ID and business name,
 - business categories,
-- city and state,
+- city and region,
 - geographic coordinates,
 - business rating,
 - user rating,
 - review date and posting time,
 - user and review identifiers.
-
-The analysis focuses on businesses located across different states and cities in the United States.
 
 
 ## Data Preparation
@@ -128,7 +128,7 @@ It includes:
 - **Total Reviews**
 - **Avg User Rating**
 - **Top Business Group**
-- most reviewed businesses,
+- top reviewed businesses,
 - average user rating by business group,
 - a detailed **Business Group Performance** matrix.
 
@@ -180,8 +180,8 @@ A dynamic **Geographic Level** selector allows users to switch between:
 
 The page includes:
 
-- **Review Activity by Location**
 - **Business Count by Location**
+- **Review Activity by Location**
 - **Reviews per Business by Location**
 - a hierarchical **State & City Performance** matrix.
 
@@ -194,7 +194,7 @@ The matrix contains:
 - business rating,
 - average user rating.
 
-States can be expanded to explore individual cities.
+Regions can be expanded to explore individual cities.
 
 This makes it possible to compare both the concentration of businesses and the level of customer engagement across different locations.
 
@@ -215,7 +215,7 @@ The main KPIs include:
 
 This chart shows how the total number of reviews changed over the years.
 
-Review activity increased strongly during the earlier years of the dataset, reached its highest levels before 2020, and then declined in the later period.
+Review activity increased strongly during the earlier years of the dataset, reached its highest level in 2019, and declined in the later period.
 
 ### Evening Review Share by Business Group
 
@@ -244,6 +244,8 @@ The final page focuses on monthly patterns and review activity around U.S. feder
 ### Monthly Review Activity
 
 The line chart shows the average monthly number of reviews across the calendar year and helps identify periods of higher and lower review activity.
+
+Activity is highest during the summer months, particularly in July and August, while lower levels are visible toward the end of the year.
 
 ### Monthly Seasonality Summary
 
@@ -278,10 +280,10 @@ The analysis highlights several patterns in the data:
 - Businesses with very high ratings often have fewer reviews, which is why a minimum review threshold was introduced in the rating rankings.
 - Review activity is lowest during morning hours and increases later in the day.
 - Evening review activity differs between business categories.
-- Review volume increased substantially over the earlier years of the dataset and reached its highest levels before declining in later years.
-- Monthly review activity shows moderate seasonal variation, with higher activity during the summer period.
+- Review volume increased substantially over time, reaching its highest level in 2019 before declining in later years.
+- Monthly review activity shows moderate seasonal variation, with the highest activity during the summer months.
 - Review activity around some U.S. federal holidays differs from the typical activity observed on regular days.
-- Geographic analysis reveals differences in business concentration, review volume, and reviews per business across states and cities.
+- Geographic analysis reveals differences in business concentration, review volume, and reviews per business across locations.
 
 
 ## Tools & Technologies
